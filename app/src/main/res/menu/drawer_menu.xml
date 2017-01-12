@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_stories"
+            android:title="Курс валют сегодня"
+            android:checked="true"/>
+        <item
+            android:id="@+id/drawer_favorite"
+            android:title="Курс валют архив"
+            android:checked="true"/>
+        <item
+            android:id="@+id/drawer_f"
+            android:title="График"/>
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_ex"
+            android:title="Настройки"/>
+        <item
+            android:id="@+id/drawer_exit"
+            android:title="Выход"/>
+    </group>
+</menu>

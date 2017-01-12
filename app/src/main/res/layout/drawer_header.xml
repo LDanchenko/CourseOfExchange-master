@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_header_layout_height"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/drawer_status_bar_height"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="kk"
+        android:theme="@style/TextViewTheme"/>
+</RelativeLayout>
